@@ -21,6 +21,12 @@ jobs:
           - model: "SM-M526BR"
             csc: "BTU"
             omc: "OXM"
+          - model: "SM-M526B"
+            csc: "ZTO"
+            omc: "OWO"
+          - model: "SM-M526BR"
+            csc: "TUR"
+            omc: "OJM"
 
     steps:
       - name: Checkout repo
